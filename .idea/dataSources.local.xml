@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Rails budget: test" uuid="6cdebbc0-32e9-407e-9c00-b26ca20f77e1">
+      <database-info product="PostgreSQL" version="9.6.1" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.4 JDBC4 (build 1201)">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <introspection-schemas>budget_test:public</introspection-schemas>
+      <resolve-scope>budget_test:public</resolve-scope>
+      <unqualified-resolve-schemas>budget_test:public</unqualified-resolve-schemas>
+    </data-source>
+    <data-source name="Rails budget: development" uuid="8e093706-85b1-44da-93e8-32a7694bc690">
+      <database-info product="PostgreSQL" version="9.6.1" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.4 JDBC4 (build 1201)">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <introspection-schemas>budget_development:public</introspection-schemas>
+      <resolve-scope>budget_development:public</resolve-scope>
+      <unqualified-resolve-schemas>budget_development:public</unqualified-resolve-schemas>
+    </data-source>
+  </component>
+</project>

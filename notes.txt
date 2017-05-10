@@ -1,0 +1,21 @@
+app name: budget
+description: Track spending and savings. Enter purchases which will be used to keep track of your total expenditures for a given amount of time.
+
+
+
+
+Controllers:       Actions:
+    home#index
+
+
+Models:
+
+Purchase Model: A "purchase" is a single unit of spending money either goods or service.
+
+Attributes for Purchase Model
+    purchase: String
+    cost: float
+    category: connected to the Category Model
+
+Category Model:
+
